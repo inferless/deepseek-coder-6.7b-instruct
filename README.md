@@ -33,42 +33,6 @@ Enter all the required details to Import your model. Refer [this link](https://d
 
 The following is a sample Input and Output JSON for this model which you can use while importing this model on Inferless.
 
-### Input
-```json
-{
-    "inputs": [
-      {
-        "data": [
-          "What is an AI?"
-        ],
-        "name": "prompt",
-        "shape": [
-          1
-        ],
-        "datatype": "BYTES"
-      }
-    ]
-}
-```
-
-### Output
-```json
-{
-    "outputs": [
-      {
-        "data": [
-          "data"
-        ],
-        "name": "generated_result",
-        "shape": [
-          1
-        ],
-        "datatype": "BYTES"
-      }
-    ]
-}
-```
-
 ---
 ## Curl Command
 Following is an example of the curl command you can use to make inferences. You can find the exact curl command on the Model's API page in Inferless.
@@ -80,7 +44,7 @@ curl --location '<your_inference_url>' \
     "inputs": [
       {
         "data": [
-          "What is an AI?"
+          "Write a Python Hello World code."
         ],
         "name": "prompt",
         "shape": [
