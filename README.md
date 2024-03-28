@@ -1,5 +1,5 @@
-# StarCoder2-15B
-StarCoder2-15B model is a 15B parameter model trained on 600+ programming languages from The Stack v2, with opt-out requests excluded. The model uses Grouped Query Attention, a context window of 16,384 tokens with a sliding window attention of 4,096 tokens, and was trained using the Fill-in-the-Middle objective on 4+ trillion tokens.
+# Deepseek-coder-6.7b-instruct
+Deepseek Coder is an advanced suite of code language models trained from scratch on a vast dataset of 2 trillion tokens, comprising 87% code and 13% natural language in English and Chinese. With models ranging from 1B to 33B in size, it excels in code completion and infilling tasks, boasting state-of-the-art performance across multiple programming languages and benchmarks.
 
 ---
 ## Prerequisites
