@@ -37,8 +37,8 @@ secrets:
   # - 65723205-ce21-4392-a10b-3tf00c58988c
 optional:
   # you can update file names here
-  # input_file_name: input.json
-  # output_file_name: output.json
+  input_file_name: input.json
+  output_file_name: output.json
   runtime_file_name: inferless-runtime-config.yaml
 model_url: https://github.com/inferless/Deepseek-coder-6.7b-instruct.git
 provider: GITHUB
