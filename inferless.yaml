@@ -1,6 +1,6 @@
 version: 1.0.0
 
-name: Deepseek-coder-6.7b-instruct
+name: deepseek-coder-6.7b-instruct
 import_source: GIT
 
 # you can choose the options between ONNX, TENSORFLOW, PYTORCH
@@ -40,6 +40,6 @@ optional:
   input_file_name: input.json
   output_file_name: output.json
   runtime_file_name: inferless-runtime-config.yaml
-model_url: https://github.com/inferless/Deepseek-coder-6.7b-instruct.git
+model_url: https://github.com/inferless/deepseek-coder-6.7b-instruct.git
 provider: GITHUB
 io_schema: true
